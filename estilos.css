@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #8498BF;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.datos{
+    padding: 10px;
+    margin: 0;
+    background: #4F638C;
+    overflow: hidden;
+    text-align: center;
+}
+.formulario{
+    width: 320px;
+    background-color: #344059;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type = "text"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #C1C7D9;
+    border-radius: 30px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+input[type = "password"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #C1C7D9;
+    border-radius: 30px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+input[type = "radio"]{
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+input[type = "email"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #C1C7D9;
+    border-radius: 30px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+select[class = "seleccion"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #C1C7D9;
+    border-radius: 30px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: grey;
+}
+input[type = "phone"]{
+    width: 100%;
+    background: none;
+    border: 1px solid #C1C7D9;
+    border-radius: 30px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+input[type = "submit"]{
+    background-color: #C1C7D9;
+    width: 100%;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    color: #344059;
+    font-size: 20px;
+}
+input[type = "submit"]:hover{
+    background-color: whitesmoke;
+    transition: .4s;
+}
+::placeholder{
+    color: fff;
+}

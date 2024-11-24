@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CordovaGarcia_FORMULARIO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="datos">
+    <h1>REGISTRO_DE_MATERIAS</h1>
+    <h3>CordovaGarciaGabriel_5IV11_Prof_SanchezSanchezJorgePablo_PortalesWeb</h3>
+    </div>
+    <div class="formulario">
+    <form action="form.php" method="post">
+        <table>
+            <tr>
+                <td><input type="text" placeholder="Ingresa tu nombre" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Ingresa tu contraseña" name="password" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="genero" value="F" required> FEMENINO
+                    <input type="radio" name="genero" value="M" required> MASCULINO
+                </td>
+            </tr>
+            <tr>
+                <td><input type="email" placeholder="Ingresa tu correo" name="email" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <select class="seleccion" name="materia" required>
+                        <option selected hidden value="">MATERIAS</option>
+                        <option value="calculo">Calculo</option>
+                        <option value="fisica">Fisica</option>
+                        <option value="programacion">Programacion</option>
+                        <option value="analisis">Analisis de sistemas</option>
+                        <option value="database">Base de datos</option>
+                    </select>
+                    <input type="phone" placeholder="Ingresa tu no_telefonico" name="telefono">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="ENVIAR" name="enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
